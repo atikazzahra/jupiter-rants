@@ -5,4 +5,4 @@ tags:
 ---
 Yoohoo
 
-![](/images/safe-travels.jpg)
+{% asset_img safe-travels.jpg %}

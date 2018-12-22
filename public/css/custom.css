@@ -1,0 +1,61 @@
+body {
+  font-family: Raleway; }
+
+#main {
+  margin-top: 30px; }
+
+.jptr-nav {
+  float: right;
+  margin-bottom: 12px; }
+  .jptr-nav a {
+    text-decoration: none;
+    color: #000; }
+  .jptr-nav--disable {
+    color: #B3B3B3; }
+
+.jptr-sidebar {
+  display: inline;
+  position: fixed;
+  width: 250px; }
+  .jptr-sidebar__photo {
+    width: 70%;
+    margin: auto;
+    display: block;
+    border-radius: 100%; }
+  .jptr-sidebar__title {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 12px;
+    letter-spacing: 7px; }
+  .jptr-sidebar__links {
+    text-align: center;
+    margin-top: 30px; }
+    .jptr-sidebar__links-item {
+      margin: auto;
+      display: block;
+      width: 50%;
+      border: 1px solid #fff;
+      padding: 3px; }
+      .jptr-sidebar__links-item:hover {
+        border: 1px solid #000; }
+    .jptr-sidebar__links a {
+      text-decoration: none;
+      color: #000; }
+
+.jptr-content {
+  margin-left: 320px;
+  width: auto; }
+
+.jptr-post__date {
+  font-size: 14px;
+  color: #B3B3B3; }
+
+.jptr-post__title {
+  font-size: 24px; }
+
+.jptr-post img {
+  width: 100%; }
+
+.jptr-post a {
+  text-decoration: none;
+  color: #000; }
