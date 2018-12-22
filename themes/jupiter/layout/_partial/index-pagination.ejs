@@ -1,0 +1,12 @@
+<div class="jptr-nav">
+  <% if (page.prev) { %>
+    <a class="jptr-nav--next" href="<%- url_for(page.prev_link) %>">←</a>
+  <% } else { %>
+    <span class="jptr-nav--disable">←</a>
+  <% } %>
+  <% if (page.next) { %>
+    <a lass="jptr-nav--prev" href="<%- url_for(page.next_link) %>">→</a>
+  <% } else { %>
+    <span class="jptr-nav--disable">→</a>
+  <% } %>
+</div>

@@ -1,0 +1,12 @@
+<div class="jptr-nav">
+  <% if (post.prev) { %>
+    <a class="jptr-nav--next" href="<%- url_for(post.prev.path) %>">←</a>
+  <% } else { %>
+    <span class="jptr-nav--disable">←</a>
+  <% } %>
+  <% if (post.next) { %>
+    <a lass="jptr-nav--prev" href="<%- url_for(post.next.path) %>">→</a>
+  <% } else { %>
+    <span class="jptr-nav--disable">→</a>
+  <% } %>
+</div>

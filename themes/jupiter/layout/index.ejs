@@ -1,0 +1,9 @@
+<div class="container">
+  <%- partial('_partial/sidebar') %>
+  <div class="jptr-content">
+    <% page.posts.forEach(function(post){ %>
+      <%- partial('_partial/post', {post: post}) %>
+    <% }); %>
+    <%- partial('_partial/index-pagination', {page: page}) %>
+  </div>
+</div>

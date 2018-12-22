@@ -1,0 +1,9 @@
+<div class="jptr-post">
+  <div class="jptr-post__date">
+    <%= date(post.date, 'D MMMM YYYY @ hh:mm A') %>
+  </div>
+  <div class="jptr-post__title">
+    <a href="<%- url_for(post.path) %>"><%- post.title || "Untitled" %></a>
+  </div>
+  <%- post.content %>
+</div>

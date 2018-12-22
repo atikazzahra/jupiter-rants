@@ -1,0 +1,11 @@
+<div class="jptr-sidebar">
+  <img class="jptr-sidebar__photo" src="<%- config.root %><%- theme.sidebar.photo %>" />
+  <div class="jptr-sidebar__title">
+    <strong><%= theme.sidebar.title %></strong>
+  </div>
+  <div class="jptr-sidebar__links">
+    <% for (var i in theme.sidebar.url){ %>
+      <a class="jptr-sidebar__links-item" href="<%- url_for(theme.sidebar.url[i]) %>"><%= i %></a>
+    <% } %>
+  </div>
+</div>
