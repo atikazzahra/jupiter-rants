@@ -3,9 +3,8 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
-
 sidebar:
-  photo: images/uwu.jpg
-  title: jupiter conspiracy trying to survive the world
+  photo: images/asdf.gif
+  title: jupiter's asdfghjkl
   url:
     index: /

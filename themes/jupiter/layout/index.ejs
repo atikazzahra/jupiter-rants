@@ -1,5 +1,11 @@
 <div class="container">
-  <%- partial('_partial/sidebar') %>
+  <div class="d-none d-md-block">
+    <%- partial('_partial/sidebar') %>
+  </div>
+  <div class="d-md-none">
+    <%- partial('_partial/sidebar-sm') %>
+  </div>
+
   <div class="jptr-content">
     <% page.posts.forEach(function(post){ %>
       <%- partial('_partial/post', {post: post}) %>
